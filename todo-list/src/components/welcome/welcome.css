@@ -1,0 +1,103 @@
+.section-welcome {
+  width: 100wh;
+  height: 100vh;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+.login-register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.button-signin {
+  padding: 7px 12px;
+  color: #fff;
+  background-color: #949dcc;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.button-signin:hover {
+  opacity: 0.5;
+}
+
+.button-isregistering {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.button-isregistering:hover {
+  opacity: 0.5;
+}
+
+.button-register {
+  padding: 7px 12px;
+  color: #fff;
+  background-color: #949dcc;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.button-register:hover {
+  opacity: 0.5;
+}
+
+.button-goback {
+  padding: 7px 12px;
+  color: #fff;
+  background: linear-gradient(
+    135deg,
+    rgb(246, 206, 236) 10%,
+    rgb(217, 57, 205) 100%
+  );
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.button-goback:hover {
+  opacity: 0.5;
+}
+
+.input-email {
+  padding: 5px 10px;
+}
+
+.input-password {
+  padding: 5px 10px;
+}
+
+.button-signingoogle {
+  padding: 7px 12px;
+  color: #fff;
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.button-signingoogle:hover {
+  opacity: 0.5;
+}

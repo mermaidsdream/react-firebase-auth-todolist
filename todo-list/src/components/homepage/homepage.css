@@ -1,0 +1,134 @@
+.homepage-container {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 20px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.button-signout {
+  display: flex;
+  margin-right: 0px auto;
+  padding: 10px 25px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-left: auto;
+  border: none;
+  color: #fff;
+  background-color: #949dcc;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.button-signout:hover {
+  opacity: 0.5;
+}
+
+.form-input {
+  margin-bottom: 2rem;
+}
+
+.homepage-container__input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  height: 20px;
+  width: 24rem;
+  margin-left: -13rem;
+  font-size: 15px;
+}
+
+.homepage-container__input-button {
+  padding: 10px 25px;
+  border: none;
+  color: #fff;
+  background-color: #949dcc;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 200ms ease;
+  position: absolute;
+  top: 50px;
+  right: 450px;
+}
+
+.homepage-container__input-button:hover {
+  background-color: #949dcc;
+  opacity: 0.5;
+}
+
+.homepage-container__todo-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.todo-list__title {
+  color: #fff;
+  background-color: #949dcc;
+  padding: 10px 20px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.input-check {
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  width: 5%;
+}
+
+.button-update {
+  background-color: #fafafa;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.button-update:hover {
+  opacity: 0.5;
+}
+
+.button-delete {
+  background-color: #fafafa;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.button-delete:hover {
+  opacity: 0.5;
+}
+
+.title-nobooks {
+  display: block;
+  margin: 250px auto;
+}
+
+.load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 25px;
+  border: none;
+  font-size: 12px;
+  color: #fff;
+  background-color: #949dcc;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.load-more:hover {
+  opacity: 0.5;
+}
